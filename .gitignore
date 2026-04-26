@@ -1,0 +1,61 @@
+### --- ESPECÍFICO PARA DATOS ---
+# Ignorar todos los archivos CSV por defecto
+*.csv
+
+# Si quieres permitir un CSV específico (ej. una configuración), descomenta la siguiente línea:
+# !configuracion.csv
+
+### --- ENTORNOS VIRTUALES ---
+.venv/
+venv/
+env/
+ENV/
+bin/
+lib/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+### --- ARCHIVOS DE SISTEMA Y TEMPORALES ---
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*~
+*.log
+*.tmp
+*.bak
+
+### --- IDEs Y EDITORES ---
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+.project
+.pydevproject
+.settings/
+
+### --- PYTHON (Si aplica) ---
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints
+.pytest_cache/
+.mypy_cache/
+
+### --- SECRETOS Y VARIABLES DE ENTORNO ---
+.env
+.flaskenv
+secrets.json
+*.pem
+*.key
